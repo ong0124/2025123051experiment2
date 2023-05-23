@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:gravity="center"
+    android:orientation="vertical"
+    >
+
+ <Button
+     android:id="@+id/MainBn1"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:text="线性布局"
+     >
+
+ </Button>
+
+ <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/MainBn2"
+        android:text="相对布局"
+     >
+ </Button>
+ <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/MainBn3"
+        android:text="帧布局"
+     >
+
+ </Button>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/MainBn4"
+        android:text="表格布局"
+        >
+
+    </Button>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/MainBn5"
+        android:text="网格布局"
+        >
+    </Button>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="bottom"
+        android:text="2025123051林子旺"
+        android:layout_marginTop="100dp"
+        android:textSize="20dp"
+        ></TextView>
+
+</LinearLayout>

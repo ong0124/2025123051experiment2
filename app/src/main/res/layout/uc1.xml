@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity2">
+
+    <Button
+        android:id="@+id/HLbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="horizontallayout"
+        android:text="水平布局" />
+
+    <Button
+        android:id="@+id/VLbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="verticallayout"
+        android:text="垂直布局" />
+
+    <Button
+        android:id="@+id/LLbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="alignleftlayout"
+        android:text="靠左对齐" />
+
+    <Button
+        android:id="@+id/homeButton"
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="200dp"
+        android:onClick="homeButton"
+        android:text="返回" />
+
+</LinearLayout>
